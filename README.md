@@ -1,6 +1,15 @@
 # SkinCancerClassification
 Skin cancer image classification using VGG net and bottleneck features
 
+Dataset: I used a mixture of HAM10000, MSK-2, UDA-1, UDA-2.
+
+Directory Structure for Dataset: 
+  -under /cancerImagesTraining you need to add 3 folders of images with Squamous Cell Carcinoma, Basal Cell Carcinoma, and Melanoma Images for training
+  -under /cancerImagesValidation you need to add 3 folders of images with Squamous Cell Carcinoma, Basal Cell Carcinoma, and Melanoma Images for Validation
+
+
+Problem Description:
+
 Currently, between 2 and 3 million non-melanoma skin cancers and 132,000 melanoma skin cancers occur globally each year.
 My main goal is to identify and classify images from each other and identify the 3 major forms of skin cancer and ultimately
 perform performance metrics to assess the efficiency of my model against other existing models.
